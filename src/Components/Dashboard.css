@@ -1,0 +1,87 @@
+#close-notes{
+    color: black;
+    float: right;
+    font-size: 19px;
+    cursor: pointer;
+}
+.add-sub-task{
+    background-color: white;
+    height: 199px;
+    width: 402px;
+}
+.add-sub-task textarea{
+    height: 131px;
+}
+.add-task{
+    background-color: white;
+    height: 199px;
+    width: 402px;
+}
+.add-task textarea{
+    height: 131px;
+}
+.title img, .sub-title img{
+    background-color: white;
+    height: 17px;
+    width: 16px;
+    cursor: pointer;
+}
+.sub-notes{
+    position: relative;
+    left: 10%;
+}
+.main-notes{
+    position: relative;
+    left: 10%;
+}
+
+.todo_sub{
+    position: relative;
+    left: 16%;
+}
+.triangle{
+    cursor: pointer;
+}
+.task{
+    float: left;
+}
+.addtodo{
+    top: -61px;
+    float: right;
+    position: relative;
+}
+.userdetails span{
+    font-size: 23px;
+}
+.userdetails h2{
+    color: white;
+    font-weight: bold;
+}
+.userdetails{
+    top: 184px;
+    width: 329px !important;
+    position: relative !important;
+    left: 14% !important;
+}
+.userdetails div{
+    position: relative;
+    left: -12px;
+}
+.Dashboard div{
+    color: #03e9f4 !important;
+}
+#Dashboard{
+    width: 168px;
+    position: relative;
+    
+}
+.Dashboard .user-box span:nth-child(2){
+    float: right;
+}
+.Dashboard .user-box span:nth-child(1){
+    float: left;
+}
+.to-do{
+    left: 70%;
+    width: 470px !important;
+}

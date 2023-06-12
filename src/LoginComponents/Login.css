@@ -10,7 +10,7 @@ html {
     font-family: sans-serif;
     background: linear-gradient(#141e30, #243b55);
   }
-#loginstatus{
+.status-msg{
     font-size: 16px;
     color: #03e9f4 !important;
     font-style: italic;
@@ -73,7 +73,7 @@ html {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: #03e9f4;
+    color: #03e9f4 !important;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -85,7 +85,7 @@ html {
   
   .login-box a:hover {
     background: #03e9f4;
-    color: #fff;
+    color: #000 !important;
     border-radius: 5px;
     box-shadow: 0 0 5px #03e9f4,
                 0 0 25px #03e9f4,
