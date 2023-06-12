@@ -1,4 +1,5 @@
 {
+  "homepage": "https://sjjana77.github.io/web_application_react",
   
   "name": "web-application-jana",
   
@@ -41,7 +42,8 @@
   
     
   "start": "react-scripts start",
-  
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     
   "build": "react-scripts build",
   
